@@ -3,6 +3,9 @@
 /*Import variables*/
 @import url(./partials/_variables.css);
 
+/*Import Global Styling*/
+@import url(./partials/_Global.css);
+
 /* start navigation */ 
 
 .header_area .main-menu .navbar .navbar-brand{
@@ -48,5 +51,21 @@
    content: "";
    height: 2px;
    width: 18vw;
+   background: black;
+   display: inline-block;
+   margin-left: 5%;
+   transform: translateY(-10px);
 }
+.site-main .site-banner h1{
+    font-size: 5rem;
+
+}
+.site-main .site-banner h4{
+    font-size: 1.5rem;
+}
+.site-main .site-banner .banner-image > img{
+    padding: 7rem 0;
+    border-inline-width: 90rem;
+}
+
 /* End Banner */
