@@ -71,3 +71,7 @@ button:hover,
   outline: 0px !important;
   box-shadow: none !important;
 }
+
+.title-h1{
+  font: normal bold 39px/40px var(--Roboto);
+}
